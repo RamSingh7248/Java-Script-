@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Event</title>
+</head>
+
+<body style="background-color: #414141;">
+
+    <h2>Amazing img</h2>
+
+    <ul id="imagess">
+        <li>
+            <img width="200px"
+                 src="https://images.unsplash.com/photo-1500534623283-312aade485b7"
+                 alt="Nature">
+        </li>
+
+        <li>
+            <img width="200px"
+                 src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+                 alt="Forest">
+        </li>
+
+        <li>
+            <img id = "Forest1" width="200px"
+                 src="https://images.unsplash.com/photo-1473445361085-b9a07f55608b"
+                 alt="Forest1">
+        </li>
+
+        <li>
+            <img id = "nature" width="200px"
+                 src="https://images.unsplash.com/photo-1448375240586-882707db888b"
+                 alt="Nature1">
+        </li>
+    </ul>
+
+</body>
+
+<script>
+    // document.getElementById('nature').onclick = function(){
+    //     alert("natured clicked")
+    // }
+
+    // attachedEvent()
+    // jQuery - on
+
+    // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+
+    // addEvenListner
+    // document.getElementById('nature').addEventListener('click', function(e){
+    //     console.log("clicked inside the ul");
+    // }, false)
+
+    // document.getElementById('forest1').addEventListener('click', function(e){
+    //     console.log("forest1 clicked");
+    //     e.stopPropagation()
+    // }, false)
+
+    // document.getElementById('google').addEventListener('Click', function(e){     
+    // })
+
+    // document.querySelector('#imagess').addEventListener('click', function(e){
+    //     console.log(e.target.tagName);
+    //     if(e.target.tagName === 'IMG'){
+    //         console.log(e.target.id);
+    //                 let removeIt = e.target.parentNode
+    //     removeIt.remove()
+    //     }     
+    // })
+
+    
+</script>
+</html>
